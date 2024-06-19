@@ -69,5 +69,10 @@ static main(void) {
 	FindAddress("aaGlobArray", "48 03 3D ? ? ? ? 48 8B CF E8 ? ? ? ? 48 8D 4C 24 ? 48 8D 9F ? ? ? ? E8");
 	FindAddress("bg_weaponCompleteDefs", "E8 ? ? ? ? 0F B7 4C 24 78 8B F8 48 8D");
 	FindAddress("g_cgPlayerTraceInfo", "48 63 C1 48 69 C8 60 03 00 00 48 8D ? ? ? ? ? 48 03 C8 E9");
-	FindAddress("g_cgPlayerTraceInfo", "48 63 C1 48 69 C8 60 03 00 00 48 8D ? ? ? ? ? 48 03 C8 E9");
+	FindAddress("CgWeaponMap__ms_instance", "48 8D 05 ? ? ? ? 48 63 49 30");
+	FindAddress("LUI_luaVM", "8B D9 E8 ? ? ? ? E8 ? ? ? ? 4C 8B 05 ? ? ? ? 48 8D 15");
+	FindAddress("swap_chain", "48 8B 0D ? ? ? ? 33 D2 E8 ? ? ? ? 48 C7 05 ? ? ? ? 00 00 00 00 48 83 C4 ? C3");
+	FindAddress("kickAngles", "49 8D 90 ? ? ? ? 8B 42 10");
+	FindAddress("R_AddCmdDrawText", "44 89 74 24 ? E8 ? ? ? ? 48 8B 4D");
+	FindAddress("Lua_VM", "4C 8B 05 ? ? ? ? 48 8D 14 5B");
 }
