@@ -56,4 +56,18 @@ static main(void) {
 	FindAddress("BG_UsrCmdUnpackAngle", "48 83 EC 28 ? ? ? ? ? ? ? ? 41 B8 14 00 00 00 E8");
 	FindAddress("BG_GetPlayerEyePosition", "48 81 C1 ? ? 00 00 45 8B F1 45 89 3C 24 49 8B F0");
 	FindAddress("BG_UsrCmdPackAngle", "66 C1 E0 05 66 0B C7");
+	FindAddress("BG_UsrCmdUnpackAngle", "48 83 EC 28 ? ? ? ? ? ? ? ? 41 B8 14 00 00 00 E8");
+	FindAddress("BG_GetPlayerEyePosition", "48 81 C1 ? ? 00 00 45 8B F1 45 89 3C 24 49 8B F0");
+	FindAddress("BG_GetEntityWorldTagPosition", "48 69 D1 ? 01 00 00 48 03 D0 EB 02 33 D2 4D ? ? 45 ? ? 49 ? ? 48 ? ? ? ? 00 00");
+	FindAddress("CG_VehicleCam_SetClientViewAngles", "E8 ? ? ? ? ? ? ? 48 ? ? ? 4C ? ? 48 ? ? ? E8");
+	FindAddress("UI_SafeTranslateString", "40 53 48 83 EC ? 80 39 1F 48 8B D9");
+	FindAddress("GPad_GetButton", "BA 01 00 00 20 ? ? ? E8");
+	FindAddress("GScr_EndLobby", "B9 AD 0C 00 00 E8");
+	FindAddress("refdef", "33 0D ? ? ? ? 89 8D ? ? ? ? 48 8D 0D ? ? ? ? 33 0D");
+	FindAddress("DVARBOOL_cl_packetdup", "E8 ? ? ? ? 84 C0 0F 84 ? ? ? ? ? ? ? ? ? 04 00 0F 8E");
+	FindAddress("ms_cgameStaticsArray", "48 89 5C 24 ? 48 89 74 24 ? 57 48 83 EC 20 48 63 F9 48 8D 35 ? ? ? ? 33 DB 48 8B 34 FE 90");
+	FindAddress("aaGlobArray", "48 03 3D ? ? ? ? 48 8B CF E8 ? ? ? ? 48 8D 4C 24 ? 48 8D 9F ? ? ? ? E8");
+	FindAddress("bg_weaponCompleteDefs", "E8 ? ? ? ? 0F B7 4C 24 78 8B F8 48 8D");
+	FindAddress("g_cgPlayerTraceInfo", "48 63 C1 48 69 C8 60 03 00 00 48 8D ? ? ? ? ? 48 03 C8 E9");
+	FindAddress("g_cgPlayerTraceInfo", "48 63 C1 48 69 C8 60 03 00 00 48 8D ? ? ? ? ? 48 03 C8 E9");
 }
