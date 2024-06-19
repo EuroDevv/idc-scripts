@@ -39,7 +39,7 @@ static FindAddress(func, patrn) {
 
 
 static main(void) {
-	FindAddress("Pose", "48 ? ? 48 ? ? ? 01 10 00 00 0F 85 ? ? ? ? C1 E8 11 A8 01 0F 85");
+	FindAddress("pose", "48 ? ? 48 ? ? ? 01 10 00 00 0F 85 ? ? ? ? C1 E8 11 A8 01 0F 85");
 	FindAddress("nextState", "45 84 C9 0F 85 ? ? ? ? F6");
 	FindAddress("flags", "45 84 C9 0F 85 ? ? ? ? F6");
 	FindAddress("size", "63 CE 48 ? ? ? ? ? ? B9");	
