@@ -100,4 +100,12 @@ static main(void) {
 	FindAddress("BG_IsThirdPersonMode", "E8 ?? ?? ?? ?? 48 8B 9C 24 ?? ?? ?? ?? 8B CD 84 C0");
 	FindAddress("R_AddDObjToScene", "40 56 57 41 54 41 55 41 56 41 57 48 81 EC ? ? ? ? C5 F8 29 B4 24 ? ? ? ?");
 	FindAddress("CG_GetViewFovBySpace", "48 89 5c 24 ? 55 56 57 41 54 41 55 41 56 41 57 48 8d 6c 24 ? 48 81 ec ? ? ? ? 48 8b 05 ? ? ? ? 48 33 c4 48 89 45 ? 48 63 fa");
+	FindAddress("CG_PredictMP_PredictPlayerState", "40 53 48 83 ec ? 8b d9 e8 ? ? ? ? 8b cb e8 ? ? ? ? 8b cb e8 ? ? ? ? e8");
+	FindAddress("BG_WeaponFireRecoil", "E8 ? ? ? ? E9 ? ? ? ? 48 8D 9E ? ? ? ? 41 8B CF ");
+	FindAddress("CL_GetAgentName", "E8 ? ? ? ? 84 C0 75 18 4C 8D 05 ? ? ? ? BA ? ? ? ? 48 8D 8D ? ? ? ? E8");
+	FindAddress("BG_CalculateFinalSpreadForWeapon", "E8 ? ? ? ? 44 0F B6 8C 24 ? ? ? ? 48 8D 8F ? ? ? ? 4C 8B C6 33 D2 C5 FA 11 84 24 ? ? ? ? E8 ? ? ? ?");
+	FindAddress("BG_GetSpreadForWeapon", "40 55 53 41 54 41 55 48 8D 6C 24 ? 48 81 EC ? ? ? ? 83 B9 ? ? ? ? ? 4D 8B E1 4C 89 B4 24 ? ? ? ? 4D 8B E8 4C 8B F2 48 8B D9 75 22");
+	FindAddress("SL_ConvertToString", "E8 ? ? ? ? 48 8B C8 B2 01 E8 ? ? ? ? 45 33 C9 88 5C 24 20 4D 8B C7 48 8B D0 48 8B CE E8 ? ? ? ?");
+	FindAddress("BulletHitEvent_Internal", "48 89 5c 24 ? 48 89 6c 24 ? 48 89 74 24 ? 57 41 54 41 55 41 56 41 57 48 81 ec ? ? ? ? 41 8b f8");
+	FindAddress("sys_milliseconds", "48 83 EC 28 80 3D ? ? ? ? ? 75 05 E8 ? ? ? ? E8 ? ? ? ? 48 8B C8");
 }
