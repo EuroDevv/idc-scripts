@@ -77,5 +77,8 @@ static main(void) {
 	FindAddress("UI_SafeTranslateString", "40 ? 48 83 EC ? 80 39 ? 48 8B ? 75 ? 48 FF");
 	FindAddress("BG_GetPlayerEyePosition", "e8 ? ? ? ? 4c 8d 44 24 ? 48 8b ce 48 8d 54 24 ? e8 ? ? ? ? 41 8d 45");
 	FindAddress("CG_Handler", "e8 ? ? ? ? 8b 94 24 ? ? ? ? 4c 8b c0 48 8b 4c 24 ");
-	FindAddress("CG_Handler", "e8 ? ? ? ? 8b 94 24 ? ? ? ? 4c 8b c0 48 8b 4c 24 ");
+	FindAddress("CG_GetEntWeapon", "e8 ? ? ? ? 33 c9 48 8b f8 e8 ? ? ? ? 48 89 45");
+	FindAddress("CG_GetWeaponDisplayName", "40 55 53 56 48 8d ac 24 ? ? ? ? 48 81 ec ? ? ? ? 48 8b 05 ? ? ? ? 48 33 c4 48 89 85 ? ? ? ? 66 83 39 ");
+	FindAddress("MSG_PackSignedFloat", "E8 ? ? ? ? C5 FA 10 0D ? ? ? ? C5 FA 10 44 24 ? 41 B8 ? ? ? ? 89 45 A4 E8");
+	FindAddress("MSG_UnPackSignedFloat", "C5 F8 28 D9 44 8B C9 BA ? ? ? ? C5 F8 57 C0 41 8D 48 FF C5 E8 57 D2 D3 E2 FF CA 8B C2 41 23 C1 41 D3 F9 C4 E1 EA 2A D0 8B C2 C4 E1 FA 2A C0");
 }
