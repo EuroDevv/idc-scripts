@@ -90,5 +90,14 @@ static main(void) {
 	FindAddress("CG_SnapshotMP_GetNextSnap", "E8 ? ? ? ? 48 8B D0 8B CB E8 ? ? ? ? 48 8B 87 ? ? ? ? 8B 48 0C");
 	FindAddress("CG_SnapshotMP_GetPrevSnap", "E8 ? ? ? ? 41 8B CD 48 89 44 24 ? 48 8B F8 E8 ? ? ? ? 48 85 C0");
 	FindAddress("BG_GetBallisticInfo", "48 89 5c 24 ? 57 48 81 ec ? ? ? ? 48 8b 05 ? ? ? ? 48 33 c4 48 89 84 24 ? ? ? ? 48 8b f9 41 0f b6 c0");
-	FindAddress("BG_GetBallisticInfo", "48 89 5c 24 ? 57 48 81 ec ? ? ? ? 48 8b 05 ? ? ? ? 48 33 c4 48 89 84 24 ? ? ? ? 48 8b f9 41 0f b6 c0");
+	FindAddress("BG_Ballistics_TravelTimeForDistance", "48 89 5C 24 ? 55 56 57 48 81 EC ? ? ? ? C5 F8 29 B4 24 ? ? ? ? 48 8B 05 ? ? ? ? 48 33 C4 48 89 84 24 ? ? ? ? C5 F8 28 F3 41 0F B6 F8 48 8B DA E8 ? ? ? ?");
+	FindAddress("Dvar_GetFloatSafe", "E8 ? ? ? ? C5 FA 11 44 24 ? EB 06 C5 FA 10 44 24 ? C5 FA 5A C8 48 8B CF ");
+	FindAddress("missile", "48 8D 05 ? ? ? ? C7 43 ? ? ? ? ? 48 89 03 48 8B C3 C6 43 0B 01 C6 43 1D 01 C7 43 ? ? ? ? ? 48 83 C4 20 5B C3");
+	FindAddress("targetassist", "48 8d 05 ? ? ? ? c7 41 ? ? ? ? ? 48 89 01 41 b8 ? ? ? ? 48 83 c1 ? e8 ? ? ? ? 48 8b c3 48 83 c4 ? 5b");
+	FindAddress("GPad_GetButton", "E8 ? ? ? ? C5 FA 59 CE BA ? ? ? ? 33 C9 C5 FA 2C F9 E8 ? ? ? ? ");
+	FindAddress("GPad_isActive", "E8 ? ? ? ? 84 C0 74 06 3B F7 74 1B FF C7 FF C3");
+	FindAddress("BG_GetThirdPersonCrosshairOffset", "48 89 5C 24 ? 57 48 83 EC 40 48 8B FA 48 8B D9 E8 ? ? ? ? 84 C0 75 0F");
+	FindAddress("BG_IsThirdPersonMode", "E8 ?? ?? ?? ?? 48 8B 9C 24 ?? ?? ?? ?? 8B CD 84 C0");
+	FindAddress("R_AddDObjToScene", "40 56 57 41 54 41 55 41 56 41 57 48 81 EC ? ? ? ? C5 F8 29 B4 24 ? ? ? ?");
+	FindAddress("CG_GetViewFovBySpace", "48 89 5c 24 ? 55 56 57 41 54 41 55 41 56 41 57 48 8d 6c 24 ? 48 81 ec ? ? ? ? 48 8b 05 ? ? ? ? 48 33 c4 48 89 45 ? 48 63 fa");
 }
