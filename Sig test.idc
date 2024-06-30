@@ -152,4 +152,15 @@ static main(void) {
 	FindAddress("clientinfo", "4c 8d 0d ? ? ? ? 8b d7 4d 8b 0c c9");
 	FindAddress("DVARBOOL_cl_packetdup", "0F 84 ? ? ? ? 41 8B BC 24 ? ? ? ? 85 FF 7E 62");
 	FindAddress("trampoline", "FF 23");
+	FindAddress("refdef", "48 8d 0d ? ? ? ? 33 0d ? ? ? ? 8d 41 ? 0f af c1 48 8d");
+	FindAddress("FrontendCheck", "80 3d ? ? ? ? ? 75 ? c6 05 ? ? ? ? ? e8 ? ? ? ? 48 8b 0d");
+	FindAddress("s_trbase_aab", "8B 3D ? ? ? ? B9 ? ? ? ? F7 D7 33");
+	FindAddress("Dvar_GetStringSafe", "E8 ? ? ? ? 48 89 44 24 ? EB 05 48 8B 44 24 ? 48 8B D0");
+
+        //SignatureScannedOffsets
+	FindAddress("s_blueprintsDirty", "48 8D 05 ? ? ? ? C6 04 01 01 33 C0 48 83 C4 20 5B C3");
+	FindAddress("BlueprintDataBuffer", "48 8D 0D ? ? ? ? 8B 85 ? ? ? ? 48 03 D9 48 C1 E0 07 ");
+	FindAddress("sizeofBuffer", "BA ? ? ? ? 48 89 44 24 ? E8 ? ? ? ? 84 C0 0F 84");
+	FindAddress("updateByte", "48 8D 05 ? ? ? ? C6 04 01 01 33 C0");
+	FindAddress("xpartydisband", "78 70 61 72 74 79 64 69 73 62 61 6E 64 61 66 74 65 72 72 6F 75 6E 64 0A ? ? ? ?");
 }
