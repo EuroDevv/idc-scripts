@@ -143,4 +143,13 @@ static main(void) {
 	FindAddress("DDL_SetEnum", "48 89 5C 24 ? 57 48 83 EC 20 48 8B FA 48 8B D9 33 D2 49 8B C8 E8 ? ? ? ? 4C 8B 43 10");
 	FindAddress("DDL_SetString", "E9 ? ? ? ? 4C 8B C7 48 8B D6 48 8B CB 48 8B 5C 24 ? 48 8B 74 24 ? 48 83 C4 20 5F E9 ? ? ? ? 48 8B 5C 24 ? 32 C0 48 8B 74 24 ? 48 83 C4 20 5F C3");
 	FindAddress("Com_ParseNavStrings", "48 83 EC 28 45 33 D2 41 C7 01 00 00 00 00");
+	FindAddress("CgWeaponSystem__ms_weaponSystemArray", "48 8B 0D ? ? ? ? 0F BF 90 ? ? ? ? 48 8D 85 ? ? ? ? 48 89 44 24 ? E8 ? ? ? ? ");
+	FindAddress("CgVehicleSystem__ms_vehicleSystemArray", "48 8B 0D ? ? ? ? 48 89 5C 24 ? 48 89 7C 24 ? E8 ? ? ? ? 8B 7C 24 30 48 8B C8 48 8B D8 E8 ? ? ? ? ");
+	FindAddress("networkadapterMacptr", "0F B6 05 ? ? ? ? 88 44 24 28 0F B6 05 ? ? ? ? 88 44 24 29 0F B6 05 ? ? ? ? 88 44 24 2A 0F B6 05 ? ? ? ? 88 44 24 2B 0F B6 05 ? ? ? ? 88 44 24 2C 0F B6 05 ? ? ? ?");
+	FindAddress("swapchain", "48 8B 0D ? ? ? ? 33 D2 E8 ? ? ? ? 48 C7 05 ? ? ? ? 00 00 00 00 48 83 C4 ? C3");
+	FindAddress("commandqueue", "8b c1 48 8d 0d ? ? ? ? 48 6b c0 78 48 03 c1 c3");
+	FindAddress("Weaponmap", "48 8b 0d ? ? ? ? 48 85 c9 74 ? 48 8d 05 ? ? ? ? 48 89 01 e8 ? ? ? ? 48 c7 05");
+	FindAddress("clientinfo", "4c 8d 0d ? ? ? ? 8b d7 4d 8b 0c c9");
+	FindAddress("DVARBOOL_cl_packetdup", "0F 84 ? ? ? ? 41 8B BC 24 ? ? ? ? 85 FF 7E 62");
+	FindAddress("trampoline", "FF 23");
 }
