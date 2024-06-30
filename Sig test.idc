@@ -108,4 +108,10 @@ static main(void) {
 	FindAddress("SL_ConvertToString", "E8 ? ? ? ? 48 8B C8 B2 01 E8 ? ? ? ? 45 33 C9 88 5C 24 20 4D 8B C7 48 8B D0 48 8B CE E8 ? ? ? ?");
 	FindAddress("BulletHitEvent_Internal", "48 89 5c 24 ? 48 89 6c 24 ? 48 89 74 24 ? 57 41 54 41 55 41 56 41 57 48 81 ec ? ? ? ? 41 8b f8");
 	FindAddress("sys_milliseconds", "48 83 EC 28 80 3D ? ? ? ? ? 75 05 E8 ? ? ? ? E8 ? ? ? ? 48 8B C8");
+	FindAddress("LUI_CoD_LuaCall_Exec", "48 89 5C 24 ? 55 56 57 41 54 41 55 41 56 41 57 48 8D AC 24 ? ? ? ? 48 81 EC ? ? ? ? 48 8B D9 E8 ? ? ? ? 8B F8 8D 50 FF 83 FA 01 76 0F 48 8D 15 ? ? ? ? 48 8B CB");
+	FindAddress("LUI_CoD_LuaCall_Exec_now", "E8 ? ? ? ? BA ? ? ? ? 49 8B CF E8 ? ? ? ? 4C 8D 05 ? ? ? ? BA ? ? ? ? 49 8B CF E8 ? ? ? ? BA ? ? ? ? 49 8B CF E8 ? ? ? ? 85 C0 75 43 8D 50 FE 49 8B CF E8 ? ? ? ? 33 D2 41 B8 ? ? ? ? 49 8B CF E8 ? ? ?");
+	FindAddress("unknown_macaddress", "48 83 ec ? 80 3d ? ? ? ? ? 75 ? 48 8d 4c 24");
+	FindAddress("CgHandler_GetScriptableDimensions", "48 89 5c 24 ? 48 89 74 24 ? 57 48 83 ec ? 48 8b 0d ? ? ? ? 49 8b f8 48 8b 1d");
+	FindAddress("CG_ClientModel_GetModel", "e8 ? ? ? ? 33 f6 4c 8b f0 80 78");
+	FindAddress("BG_IsRiotShield", "e8 ? ? ? ? 84 c0 74 ? e8 ? ? ? ? 44 8b 86");
 }
