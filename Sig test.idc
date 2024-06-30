@@ -81,4 +81,14 @@ static main(void) {
 	FindAddress("CG_GetWeaponDisplayName", "40 55 53 56 48 8d ac 24 ? ? ? ? 48 81 ec ? ? ? ? 48 8b 05 ? ? ? ? 48 33 c4 48 89 85 ? ? ? ? 66 83 39 ");
 	FindAddress("MSG_PackSignedFloat", "E8 ? ? ? ? C5 FA 10 0D ? ? ? ? C5 FA 10 44 24 ? 41 B8 ? ? ? ? 89 45 A4 E8");
 	FindAddress("MSG_UnPackSignedFloat", "C5 F8 28 D9 44 8B C9 BA ? ? ? ? C5 F8 57 C0 41 8D 48 FF C5 E8 57 D2 D3 E2 FF CA 8B C2 41 23 C1 41 D3 F9 C4 E1 EA 2A D0 8B C2 C4 E1 FA 2A C0");
+	FindAddress("ClActiveClient", "E8 ? ? ? ? 8B CD E8 ? ? ? ? 4C 8B C3 48 8B D6 8B CD E8 ? ? ? ?");
+	FindAddress("LegacyTrace", "E8 ? ? ? ? E8 ? ? ? ? C5 FA 10 5D ? C4 C1 78 2F DC");
+	FindAddress("CG_GetPoseOrigin", "E8 ? ? ? ? B0 01 48 8B 74 24 ? 48 8B 5C 24 ? 48 8B 6C 24 ? 48 8B 7C 24 ? 48 83 C4 40");
+	FindAddress("CL_SetViewAngle", "89 43 08 E8 ? ? ? ? C5 FA 10 97 ? ? ? ?");
+	FindAddress("CG_View_GetFovDvarDefaultValue", "E8 ? ? ? ? 41 8B CC C5 F8 28 F0 E8 ? ? ? ? C5 F8 2E C6");
+	FindAddress("CG_View_GetFovDvarValue", "E8 ? ? ? ? C5 FA 59 CE C5 F2 59 05 ? ? ? ? E8 ? ? ? ? C5 FA 59 0D");
+	FindAddress("CG_SnapshotMP_GetNextSnap", "E8 ? ? ? ? 48 8B D0 8B CB E8 ? ? ? ? 48 8B 87 ? ? ? ? 8B 48 0C");
+	FindAddress("CG_SnapshotMP_GetPrevSnap", "E8 ? ? ? ? 41 8B CD 48 89 44 24 ? 48 8B F8 E8 ? ? ? ? 48 85 C0");
+	FindAddress("BG_GetBallisticInfo", "48 89 5c 24 ? 57 48 81 ec ? ? ? ? 48 8b 05 ? ? ? ? 48 33 c4 48 89 84 24 ? ? ? ? 48 8b f9 41 0f b6 c0");
+	FindAddress("BG_GetBallisticInfo", "48 89 5c 24 ? 57 48 81 ec ? ? ? ? 48 8b 05 ? ? ? ? 48 33 c4 48 89 84 24 ? ? ? ? 48 8b f9 41 0f b6 c0");
 }
