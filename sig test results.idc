@@ -1,1 +1,123 @@
-
+Found nextstate at 0x7FF71A9CEBD0
+Found pose at 0x7FF7189C824D
+flags needs updating!
+flags needs updating!
+prevState needs updating!
+size needs updating!
+size needs updating!
+Found sightedEnemyFools at 0x7FF71D502310
+Found FOV at 0x7FF71CC40E7A
+Found predictedPlayerState at 0x7FF718E9FC74
+Found predictedPlayerEntity at 0x7FF718E2C2C4
+Found kickAVel at 0x7FF71E0AFA41
+Found rawKickAngles at 0x7FF71E0AFA4F
+Found kickAngles at 0x7FF71E0AFAA3
+Found shellshock at 0x7FF71D09A701
+Found ps_ptr at 0x7FF71CB856A0
+Found cmdNumber at 0x7FF718E7E489
+Found cmd_number_aab at 0x7FF718E7E489
+Found usercmd at 0x7FF719D02F30
+Found seed at 0x7FF71B1D9276
+Found angle at 0x7FF71B1D9276
+angle needs updating!
+Found CG_ClientModel_RuntimeData at 0x7FF71932B2B7
+Found LUI_DataBinding_Interactions_GetLootItemFromScriptableIndex at 0x7FF718E5B620
+Found scriptable_id at 0x7FF71932C53B
+Found ClientContext at 0x7FF71A035B91
+Found luaVM at 0x7FF723223230
+Found j_lua_remove at 0x7FF71C2234B0
+Found lua_pushstring at 0x7FF71C223120
+Found LuaShared_PCall at 0x7FF71B8B74D0
+Found lua_getfield at 0x7FF71C2226E0
+Found lua_pushinteger at 0x7FF71C222FE0
+Found lua_pushboolean at 0x7FF71C222E80
+Found lua_registerFunction at 0x7FF718BE94F0
+Found lua_gettop at 0x7FF71C2228A0
+Found lua_settop at 0x7FF71C223870
+Found UI_SafeTranslateString at 0x7FF71BB48380
+Found BG_GetPlayerEyePosition at 0x7FF71C44CD80
+Found CG_Handler at 0x7FF71C6FC270
+Found CG_GetEntWeapon at 0x7FF71CD963D0
+Found CG_GetWeaponDisplayName at 0x7FF71CDD4E30
+Found MSG_PackSignedFloat at 0x7FF719DEEE50
+Found MSG_UnPackSignedFloat at 0x7FF719DF0A90
+Found ClActiveClient at 0x7FF71AF4E9C0
+Found LegacyTrace at 0x7FF71CB74E70
+Found CG_GetPoseOrigin at 0x7FF71CBDCC70
+Found CL_SetViewAngle at 0x7FF71DBAD47C
+CG_View_GetFovDvarDefaultValue needs updating!
+Found CG_View_GetFovDvarValue at 0x7FF71CC85860
+Found CG_SnapshotMP_GetNextSnap at 0x7FF71D5C08E0
+Found CG_SnapshotMP_GetPrevSnap at 0x7FF71D5C09B0
+BG_GetBallisticInfo needs updating!
+BG_Ballistics_TravelTimeForDistance needs updating!
+Found Dvar_GetFloatSafe at 0x7FF71A80CC10
+Found missile at 0x7FF71F3F7050
+Found targetassist at 0x7FF71F39F1D8
+Found GPad_GetButton at 0x7FF71BB344D0
+Found GPad_isActive at 0x7FF71BB34680
+Found BG_GetThirdPersonCrosshairOffset at 0x7FF71C44D350
+Found BG_IsThirdPersonMode at 0x7FF71D7C4C40
+Found R_AddDObjToScene at 0x7FF71B787E70
+Found CG_GetViewFovBySpace at 0x7FF71CC40870
+Found CG_PredictMP_PredictPlayerState at 0x7FF71E089470
+Found BG_WeaponFireRecoil at 0x7FF71E38CEB0
+Found CL_GetAgentName at 0x7FF71B309300
+Found BG_CalculateFinalSpreadForWeapon at 0x7FF71C4A5300
+Found BG_GetSpreadForWeapon at 0x7FF71C4C0680
+Found SL_ConvertToString at 0x7FF719E4BAF0
+Found BulletHitEvent_Internal at 0x7FF71EADAEF0
+Found sys_milliseconds at 0x7FF71A97CC00
+Found LUI_CoD_LuaCall_Exec at 0x7FF718B3A690
+Found LUI_CoD_LuaCall_Exec_now at 0x7FF718BE94F0
+Found unknown_macaddress at 0x7FF719CB9232
+Found CgHandler_GetScriptableDimensions at 0x7FF71C6D4210
+CG_ClientModel_GetModel needs updating!
+Found BG_IsRiotShield at 0x7FF71C4D2040
+Found AimTargetMP_GetTargetBounds at 0x7FF71D6F7EC0
+Found BG_GetWeaponFlashTagname at 0x7FF71C4C6160
+Found CalcMuzzlePoint at 0x7FF71EB12B20
+Found Slide_EndCheck at 0x7FF71D7B6F80
+Found Slide_Start at 0x7FF71D7B8CF0
+Found CG_ViewMP_DrawActiveFrame at 0x7FF71E047BE0
+Found packet_test at 0x7FF71B2ECF90
+Found CgTrajectory_CgTrajectory at 0x7FF71DBC4110
+Found BgTrajectory_EvaluatePosTrajectory at 0x7FF71DBC4110
+Found BgTrajectory_LegacyEvaluateTrajectory at 0x7FF71D84EA90
+Found CL_PlayerData_SetCustomClanTag at 0x7FF71B0F0DC0
+Found unknow_func at 0x7FF71B00C660
+Found CG_EntityMP_CalcLerpPositions at 0x7FF71C7DA790
+Found CG_ScoreboardMP_GetClientScore at 0x7FF71D4AF870
+Found bdAntiCheat_reportExtendedAuthInfo at 0x7FF71C0BD4E0
+Found hwidprofileshit at 0x7FF719AC2220
+Found Live_GetXuid at 0x7FF71A84FB00
+Found DWServicesAccess_GetInstance at 0x7FF71999DE40
+Found DWServicesAccess_GetLogin at 0x7FF71999DE90
+Found Com_DDL_CreateContext at 0x7FF719CD6520
+Found Com_DDL_LoadAsset at 0x7FF719CD6850
+Found CL_PlayerData_GetDDLBuffer at 0x7FF71B0F0170
+Found DDL_GetRootState at 0x7FF71C08D710
+Found DDL_MoveToPath at 0x7FF71C08E440
+Found DDL_GetType at 0x7FF71C08D960
+Found DDL_SetInt at 0x7FF71C08E910
+Found DDL_SetEnum at 0x7FF71C08E710
+DDL_SetString needs updating!
+Found Com_ParseNavStrings at 0x7FF719CD76A0
+Found CgWeaponSystem__ms_weaponSystemArray at 0x7FF72B1FD518
+Found CgVehicleSystem__ms_vehicleSystemArray at 0x7FF724338E70
+Found networkadapterMacptr at 0x7FF71A8553F0
+Found swapchain at 0x7FF729020A68
+Found commandqueue at 0x7FF71B5DC720
+Found Weaponmap at 0x7FF72B01F400
+Found clientinfo at 0x7FF72AF288A8
+DVARBOOL_cl_packetdup needs updating!
+Found trampoline at 0x7FF71673C074
+Found refdef at 0x7FF72AF2A760
+Found FrontendCheck at 0x7FF719ACA6AA
+Found s_trbase_aab at 0x7FF71C9B7178
+Found Dvar_GetStringSafe at 0x7FF71A80CD00
+Found s_blueprintsDirty at 0x7FF724DE7DC5
+Found BlueprintDataBuffer at 0x7FF724DC7C60
+sizeofBuffer needs updating!
+Found updateByte at 0x7FF724DE7DC5
+Found xpartydisband at 0x7FF71F383080
