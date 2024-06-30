@@ -133,5 +133,14 @@ static main(void) {
 	FindAddress("Live_GetXuid", "40 53 48 83 EC 20 48 8B D9 8B CA E8 ? ? ? ? 48 8B 90 ? ? ?");
 	FindAddress("DWServicesAccess_GetInstance", "E8 ? ? ? ? 8B D3 48 8B C8 E8 ? ? ? ? 48 8B C8 48 8B D8 E8 ? ? ? ? 84 C0 74 3E");
 	FindAddress("DWServicesAccess_GetLogin", "E8 ? ? ? ? 48 8B C8 48 8B D8 E8 ? ? ? ? 84 C0 74 3E 48 8B CB E8 ? ? ? ?");
-	FindAddress("DWServicesAccess_GetLogin", "E8 ? ? ? ? 48 8B C8 48 8B D8 E8 ? ? ? ? 84 C0 74 3E 48 8B CB E8 ? ? ? ?");
+	FindAddress("Com_DDL_CreateContext", "E8 ? ? ? ? 48 8B D3 48 8D 4D 90 E8 ? ? ? ? C5 F9 EF C0");
+	FindAddress("Com_DDL_LoadAsset", "E8 ? ? ? ? 4C 8D 4D D0 4C 89 7C 24");
+	FindAddress("CL_PlayerData_GetDDLBuffer", "E8 ? ? ? ? 84 C0 0F 84 ? ? ? ? 4C 8B C7 48 8D 8C 24 ? ? ? ?");
+	FindAddress("DDL_GetRootState", "33 C0 C7 41 ? ? ? ? ? 48 89 41 10 48 85 D2 89 41 04 0F 95 C0 48 89 51 18 88 01 48 8B");
+	FindAddress("DDL_MoveToPath", "E8 ? ? ? ? 84 C0 74 35 48 8D 4C 24 ?");
+	FindAddress("DDL_GetType", "E8 ? ? ? ? 83 F8 02 75 26 48 8D 54 24 ?");
+	FindAddress("DDL_SetInt", "4C 8B C9 48 85 C9 74 3B ");
+	FindAddress("DDL_SetEnum", "48 89 5C 24 ? 57 48 83 EC 20 48 8B FA 48 8B D9 33 D2 49 8B C8 E8 ? ? ? ? 4C 8B 43 10");
+	FindAddress("DDL_SetString", "E9 ? ? ? ? 4C 8B C7 48 8B D6 48 8B CB 48 8B 5C 24 ? 48 8B 74 24 ? 48 83 C4 20 5F E9 ? ? ? ? 48 8B 5C 24 ? 32 C0 48 8B 74 24 ? 48 83 C4 20 5F C3");
+	FindAddress("Com_ParseNavStrings", "48 83 EC 28 45 33 D2 41 C7 01 00 00 00 00");
 }
