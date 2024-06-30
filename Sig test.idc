@@ -46,4 +46,11 @@ static main(void) {
 	FindAddress("size", "48 69 D1 ? ? ? ? 48 03 D0 48 8B C2 74 1B ");
 	FindAddress("size", "40 53 48 83 EC 20 4C 8B 0D ? ? ? ? 41 0F B7 D8 4D 85 C9   ");
 	FindAddress("sightedEnemyFools", "E8 ? ? ? ? 84 C0 74 08 41 09 B4 9F ? ? ? ?");
+	FindAddress("FOV", "C5 FA 11 ? ? ? ? ? E8 ? ? ? ? C5 FA 58 54 24 ? C5 FA 11 54 24");
+	FindAddress("predictedPlayerState", "48 8d 8a ? ? ? ? e8 ? ? ? ? c5 f0 57 c9 c5");
+	FindAddress("predictedPlayerEntity", "C5 FA 11 7C 24 ? E8 ? ? ? ? C5 AA 58 8D ? ? ? ? ");
+	FindAddress("kickAVel", "4C 8D A6 ? ? ? ? 45 32 FF");
+	FindAddress("rawKickAngles", "8B 8E ? ? ? ? E8 ? ? ? ? 41 8B 7C 24 ?");
+	FindAddress("kickAngles", "48 8D BE ? ? ? ? 8B 57 0C");
+	FindAddress("shellshock", "48 8D BE ? ? ? ? 8B 57 0C");
 }
