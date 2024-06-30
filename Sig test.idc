@@ -114,4 +114,10 @@ static main(void) {
 	FindAddress("CgHandler_GetScriptableDimensions", "48 89 5c 24 ? 48 89 74 24 ? 57 48 83 ec ? 48 8b 0d ? ? ? ? 49 8b f8 48 8b 1d");
 	FindAddress("CG_ClientModel_GetModel", "e8 ? ? ? ? 33 f6 4c 8b f0 80 78");
 	FindAddress("BG_IsRiotShield", "e8 ? ? ? ? 84 c0 74 ? e8 ? ? ? ? 44 8b 86");
+	FindAddress("AimTargetMP_GetTargetBounds", "e8 ? ? ? ? 4c 8d 44 24 ? 48 8b d5 8b ce");
+	FindAddress("BG_GetWeaponFlashTagname", "48 89 5C 24 ? 55 56 57 41 54 41 55 41 56 41 57 48 81 EC ? ? ? ? 48 8B 05 ? ? ? ? 48 33 C4 48 89 84 24 ? ? ? ? 45 0F B6 F0 4C 8D 2D ? ? ? ? ");
+	FindAddress("CalcMuzzlePoint", "E8 ? ? ? ? 45 33 C9 48 8D 95 ? ? ? ? 45 33 C0 48 8D 8D ? ? ? ? E8 ? ? ? ? C5 F8 57 C0 48 8D 8D ? ? ? ? C5 FA 11 85 ? ? ? ? E8 ? ? ? ? ");
+	FindAddress("Slide_EndCheck", "E8 ? ? ? ? 85 C0 74 1D 44 8B C0 48 8B D6 48 8B CB 48 8B 5C 24 ? 48 8B 74 24 ? 48 83 C4 30 5F E9 ? ? ? ?");
+	FindAddress("Slide_Start", "48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 41 56 41 57 48 83 EC 70 C5 F8 29 74 24 ? 48 8B 05 ? ? ? ? 48 33 C4 48 89 44 24 ? 48 8B 01 41 8B E8");
+	FindAddress("CG_ViewMP_DrawActiveFrame", "48 89 5C 24 ? 55 56 57 41 54 41 55 41 56 41 57 48 8D AC 24 ? ? ? ? B8 ? ? ? ? E8 ? ? ? ? 48 2B E0 C5 F8 29 BC 24 ? ? ? ? 48 8B 05 ? ? ? ? 48 33 C4 48 89 85 ? ? ? ?");
 }
