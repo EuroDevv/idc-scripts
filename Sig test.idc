@@ -120,4 +120,10 @@ static main(void) {
 	FindAddress("Slide_EndCheck", "E8 ? ? ? ? 85 C0 74 1D 44 8B C0 48 8B D6 48 8B CB 48 8B 5C 24 ? 48 8B 74 24 ? 48 83 C4 30 5F E9 ? ? ? ?");
 	FindAddress("Slide_Start", "48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 41 56 41 57 48 83 EC 70 C5 F8 29 74 24 ? 48 8B 05 ? ? ? ? 48 33 C4 48 89 44 24 ? 48 8B 01 41 8B E8");
 	FindAddress("CG_ViewMP_DrawActiveFrame", "48 89 5C 24 ? 55 56 57 41 54 41 55 41 56 41 57 48 8D AC 24 ? ? ? ? B8 ? ? ? ? E8 ? ? ? ? 48 2B E0 C5 F8 29 BC 24 ? ? ? ? 48 8B 05 ? ? ? ? 48 33 C4 48 89 85 ? ? ? ?");
+	FindAddress("packet_test", "e8 ? ? ? ? 84 c0 74 ? 41 b4 ? 40 84 ed");
+	FindAddress("CgTrajectory_CgTrajectory", "e8 ? ? ? ? 8b 57 ? 4c 8d 44 24 ? 48 8d 4c 24");
+	FindAddress("BgTrajectory_EvaluatePosTrajectory", "e8 ? ? ? ? 8b 57 ? 4c 8d 44 24 ? 48 8d 4c 24");
+	FindAddress("BgTrajectory_LegacyEvaluateTrajectory", "48 83 EC 48 45 33 C9 48 8D 05 ? ? ? ? 44 89 4C 24 ? 4C 89 4C 24 ? 4D 8B C8 44 8B C2 48 89 44 24 ? 48 8B D1 48 8D 4C 24 ? E8 ? ? ? ?");
+	FindAddress("CL_PlayerData_SetCustomClanTag", "40 53 41 54 b8");
+	FindAddress("unknow_func", "4C 8B D1 48 8D 81 ? ? ? ? 41 B9 ? ? ? ? 48 8D 80 ? ? ? ? C5 F8 10 02 48 8D 92 ? ? ? ? C5 F8 11 40 ?");
 }
