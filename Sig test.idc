@@ -126,4 +126,12 @@ static main(void) {
 	FindAddress("BgTrajectory_LegacyEvaluateTrajectory", "48 83 EC 48 45 33 C9 48 8D 05 ? ? ? ? 44 89 4C 24 ? 4C 89 4C 24 ? 4D 8B C8 44 8B C2 48 89 44 24 ? 48 8B D1 48 8D 4C 24 ? E8 ? ? ? ?");
 	FindAddress("CL_PlayerData_SetCustomClanTag", "40 53 41 54 b8");
 	FindAddress("unknow_func", "4C 8B D1 48 8D 81 ? ? ? ? 41 B9 ? ? ? ? 48 8D 80 ? ? ? ? C5 F8 10 02 48 8D 92 ? ? ? ? C5 F8 11 40 ?");
+	FindAddress("CG_EntityMP_CalcLerpPositions", "E8 ? ? ? ? 48 8B 06 44 8D 43 E3 45 33 C9 48 C7 44 24 ? ? ? ? ? 48 8B D7 48 8B CE FF 50 28 48 8B 5C 24 ?");
+	FindAddress("CG_ScoreboardMP_GetClientScore", "E8 ? ? ? ? 4C 8B C8 45 8B C5 48 8B D6 48 8B CD E8 ? ? ? ?");
+	FindAddress("bdAntiCheat_reportExtendedAuthInfo", "E8 ? ? ? ? 4C 8B 7C 24 ? 49 8D BC 24");
+	FindAddress("hwidprofileshit", "E8 ? ? ? ? 48 89 03 48 8B 0B B0 01 48 89 0F EB 02 32 C0 ");
+	FindAddress("Live_GetXuid", "40 53 48 83 EC 20 48 8B D9 8B CA E8 ? ? ? ? 48 8B 90 ? ? ?");
+	FindAddress("DWServicesAccess_GetInstance", "E8 ? ? ? ? 8B D3 48 8B C8 E8 ? ? ? ? 48 8B C8 48 8B D8 E8 ? ? ? ? 84 C0 74 3E");
+	FindAddress("DWServicesAccess_GetLogin", "E8 ? ? ? ? 48 8B C8 48 8B D8 E8 ? ? ? ? 84 C0 74 3E 48 8B CB E8 ? ? ? ?");
+	FindAddress("DWServicesAccess_GetLogin", "E8 ? ? ? ? 48 8B C8 48 8B D8 E8 ? ? ? ? 84 C0 74 3E 48 8B CB E8 ? ? ? ?");
 }
