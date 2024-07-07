@@ -55,4 +55,6 @@ static main(void) {
 	FindAddress("RefDef", "48 8D 93 ? ? ? ? 48 C7 83 ? ? ? ? ? ? ? ? 44 8B C6 8B CF 48 8B 5C 24 ? 48 8B 74 24 ? 48 83 C4 30 5F E9 ? ? ? ? ");
 	FindAddress("equippedOffHand", "4c 8d 83 ? ? ? ? 8b ce e8 ? ? ? ? 8b ce");
 	FindAddress("weaponSelect", "48 8d 93 ? ? ? ? 4c 8d 83 ? ? ? ? 8b ce");
+	FindAddress("zoomSensitivity", "c5 fa 10 8f ? ? ? ? 8b ce e8 ? ? ? ? 44 0f b6 8f");
+	FindAddress("offsetAngles", "4c 8d 8b ? ? ? ? 48 8d 54 24 ? e8");
 }
