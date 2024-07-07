@@ -91,5 +91,11 @@ static main(void) {
 	FindAddress("luaVM", "48 8b 0d ? ? ? ? ba ? ? ? ? 44 8b c2 e8 ? ? ? ? 85 c0 74 ? 48 8b 15 ? ? ? ? 48 8d 0d ? ? ? ? e8 ? ? ? ? 48 8b 0d");
 	FindAddress("j_lua_remove", "E8 ? ? ? ? EB 11 41 B8 ? ? ? ? 48 8B D3 48 8B CE E8 ? ? ? ? ");
 	FindAddress("lua_pushstring", "48 89 5C 24 ? 57 48 83 EC 20 48 8B FA 48 8B D9 48 85 D2 75 10 48 8B 41 28 49 C7 C0 ? ? ? ? 4C 89 00 EB 54 48 8B 49 10 48 8B 81 ? ? ? ? 48 39 81 ? ? ? ? 72 08 48 8B CB E8 ? ? ? ? 49 C7 C0 ? ? ? ? ");
-	FindAddress("LuaShared_PCall", "e8 ? ? ? ? 85 c0 74 ? 48 8b 15 ? ? ? ? 48 8d 0d ? ? ? ? e8 ? ? ? ? 48 8b 0d");
+	FindAddress("LuaShared_PCall", "e8 ? ? ? ? 85 c0 74 ? 48 8b 15 ? ? ? ? 48 8d 0d ? ? ? ? e8 ? ? ? ? 48 8b 0d");\
+	FindAddress("lua_getfield", "48 89 5c 24 ? 48 89 74 24 ? 57 48 83 ec ? 49 8b d8 48 8b f9 e8");
+	FindAddress("lua_pushinteger", "48 8b 41 ? c5 f8 57 c0 c4 ? fb");
+	FindAddress("lua_pushboolean", "48 8B 41 28 45 33 C0 85 D2 41 0F 95 C0 49 FF C0 49 C1 E0 2F 49 F7 D0 4C 89 00 48 83 41 ? ? 48 8B 41 28 48 3B 41 30 0F 83 ? ? ? ? C3 ");
+	FindAddress("lua_registerFunction", "48 89 5C 24 ? 57 48 83 EC 20 49 8B D8 48 8B F9 45 33 C0 E8 ? ? ? ? 45 33 C0 48 8B D3 48 8B CF E8 ? ? ? ? BA ? ? ? ? 48 8B CF ");
+	FindAddress("lua_gettop", "48 8B 41 28 48 2B 41 20 48 C1 F8 03 C3 ");
+	FindAddress("lua_settop", "48 89 5C 24 ? 57 48 83 EC 20 48 63 FA 48 8B D9 85 D2 78 64 4C 8B 41 20 48 8B 49 28 49 8D 04 F8 48 3B C1 76 44 ");
 }
