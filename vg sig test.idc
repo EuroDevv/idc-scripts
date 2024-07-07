@@ -57,7 +57,17 @@ static main(void) {
 	FindAddress("StringTable_GetAsset", "E8 ? ? ? ? 48 8B 8C 24 ? ? ? ? E8 ? ? ? ? 44 ? ? 85 C0 0F 84");
 	FindAddress("StringTable_GetColumnValueForRow", "E8 ? ? ? ? ? ? 31 75 ? 80 ? ? 08");
 	FindAddress("PhysicsQuery_LegacyMPCGWeaponSimTrace", "48 8D 44 24 ? 44 89 ? 24 38 C7 44 24 30 01 00 00 00 48 89 44 24 28 48 8D 05 ? ? ? ? 48 89 44 24 20 E8");
+	FindAddress("CL_PlayerData_SetClanTag", "84 C0 74 0E 48 8D 15 ? ? ? ? 8B CF E8 ? ? ? ? 48 8B 5C 24 ?? 48 83 C4");
+	FindAddress("BG_GetWeaponFireType", "75 15 40 0F B6 D6 48 8B ? E8 ? ? ? ? 83 F8 05 0F 84");
+	FindAddress("BG_UsrCmdUnpackAngle", "48 83 EC 28 ? ? ? ? ? ? ? ? 41 B8 14 00 00 00 E8");
+	FindAddress("BG_UsrCmdPackAngle", "66 C1 E0 05 66 0B C7");
+	FindAddress("BG_GetEntityWorldTagPosition", "48 69 D1 ? 01 00 00 48 03 D0 EB 02 33 D2 4D ? ? 45 ? ? 49 ? ? 48 ? ? ? ? 00 00");
+	FindAddress("CG_DObjGetWorldTagPos", "E8 ? ? ? ? 42 8B 8C 2B ? ? ? ? 48 8D 54 24");
 	FindAddress("CG_VehicleCam_SetClientViewAngles", "E8 ? ? ? ? ? ? ? 48 ? ? ? 4C ? ? 48 ? ? ? E8");
+	FindAddress("ms_cgameStaticsArray", "48 89 5C 24 ? 48 89 74 24 ? 57 48 83 EC 20 48 63 F9 48 8D 35 ? ? ? ? 33 DB 48 8B 34 FE 90");
+	FindAddress("aaGlobArray", "48 03 3D ? ? ? ? 48 8B CF E8 ? ? ? ? 48 8D 4C 24 ? 48 8D 9F ? ? ? ? E8");
+	FindAddress("bg_weaponCompleteDefs", "E8 ? ? ? ? 0F B7 4C 24 78 8B F8 48 8D");
+	FindAddress("g_cgPlayerTraceInfo", "48 63 C1 48 69 C8 60 03 00 00 48 8D ? ? ? ? ? 48 03 C8 E9");
 	FindAddress("swap_chain", "48 8B 0D ? ? ? ? 33 D2 E8 ? ? ? ? 48 C7 05 ? ? ? ? 00 00 00 00 48 83 C4 ? C3");
 	FindAddress("command_queue", "48 8D 2D ? ? ? ? 48 89 44 24 ? 4C 8D 0D ? ? ? ? BA");
 }
