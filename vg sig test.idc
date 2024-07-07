@@ -68,6 +68,11 @@ static main(void) {
 	FindAddress("aaGlobArray", "48 03 3D ? ? ? ? 48 8B CF E8 ? ? ? ? 48 8D 4C 24 ? 48 8D 9F ? ? ? ? E8");
 	FindAddress("bg_weaponCompleteDefs", "E8 ? ? ? ? 0F B7 4C 24 78 8B F8 48 8D");
 	FindAddress("g_cgPlayerTraceInfo", "48 63 C1 48 69 C8 60 03 00 00 48 8D ? ? ? ? ? 48 03 C8 E9");
+	FindAddress("CgWeaponMap__ms_instance", "48 8D 05 ? ? ? ? 48 63 49 30");
 	FindAddress("swap_chain", "48 8B 0D ? ? ? ? 33 D2 E8 ? ? ? ? 48 C7 05 ? ? ? ? 00 00 00 00 48 83 C4 ? C3");
 	FindAddress("command_queue", "48 8D 2D ? ? ? ? 48 89 44 24 ? 4C 8D 0D ? ? ? ? BA");
+
+        // TEST SIGS
+	FindAddress("local index aka nextState", "48 83 bb ? ? ? ? ? 0f 84 ? ? ? ? 83 bb ? ? ? ? ? 0f 84");
+	FindAddress("gamemode aka cls_maxClients", "3B 1D ? ? ? ? 8B E8 74 17 41 B8 ? ? ? ?");
 }
