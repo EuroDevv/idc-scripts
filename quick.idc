@@ -40,5 +40,8 @@ static FindAddress(func, patrn) {
 
 static main(void) {
 	FindAddress("commandqueue", "48 03 3D ? ? ? ? 48 8B CF E8 ? ? ? ? 48 8D");
-	FindAddress("commandqueue", "8b c1 48 8d 0d ? ? ? ? 48 6b c0 78 48 03 c1 c3");
+	FindAddress("MW3 - CG_ScoreboardMP_GetClientScore", "8b c1 48 8d 0d ? ? ? ? 48 6b c0 78 48 03 c1 c3");
+	FindAddress("MW19/VG - CG_ScoreboardMP_GetClientScore", "89 54 24 10 55 53 56 57 41 54 41 55 41 56 41 57 48 8D AC 24 ? ? ? ? 48 81 EC ? ? ? ? 4C 63 C1 48 8D 3D ? ? ? ? 49 69 C0");
+	FindAddress("ClActiveClient_GetClient", "e8 ? ? ? ? 8b c8 e8 ? ? ? ? eb ? e8 ? ? ? ? 8b c8");
+	FindAddress("GPad_GetButton", "BA 01 00 00 20 ? ? ? E8");
 }
