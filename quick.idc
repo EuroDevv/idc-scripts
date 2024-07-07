@@ -42,4 +42,5 @@ static main(void) {
 	FindAddress("CgWeaponMap__ms_instance", "48 8B 0D ? ? ? ? 48 8B D0 E8 ? ? ? ? 45 33 C0 48 8B D3 48 8B CE");
 	FindAddress("ms_cgameStaticsArray", "4c 8d 0d ? ? ? ? 8b d7 4d 8b 0c c9");
 	FindAddress("clStatic", "48 8D 0D ? ? ? ? 48 89 5C 24 ? 48 8B 58 28 E8 ? ? ? ? 3C 01 74 22 48 8B CB E8 ? ? ? ?");
+	FindAddress("commandqueue", "48 03 3D ? ? ? ? 48 8B CF E8 ? ? ? ? 48 8D");
 }
