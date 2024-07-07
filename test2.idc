@@ -63,4 +63,16 @@ static main(void) {
 	FindAddress("predictedPlayerEntity", "C5 FA 11 7C 24 ? E8 ? ? ? ? C5 AA 58 8D ? ? ? ? ");
 	FindAddress("Time", "8B 83 ? ? ? ? 48 8B CE 2B 83 ? ? ? ? 2B");
 	FindAddress("kickAVel", "E8 ? ? ? ? 48 8B C8 48 8B D7 E8 ? ? ? ? C5 F8 57 C0 C5 F8 2E");
+	FindAddress("rawKickAngles", "E8 ? ? ? ? 41 8B 7F 0C 4C 8D A6 ? ? ? ? 4C 8B F0");
+	FindAddress("kickAngles", "E8 ? ? ? ? 41 8B 7F 0C 4C 8D A6 ? ? ? ? 4C 8B F0");
+	FindAddress("shellshock", "85 C0 7E 10 ? ? ? ? ? ? ? ? ? 08 01 41 0F 45 C1 C3");
+	FindAddress("shellshock", "85 C0 7E 10 ? ? ? ? ? ? 08 01 41 0F 45 C1 C3");
+	FindAddress("characterinfo_ptr", "4D 8D 84 24 ? ? ? ? F3 AA 48 8B CE 49 8D 97 ? ? ? ? E8 ? ? ? ? 8B 05 ? ? ? ? 48 8D 4D C0 ");
+	FindAddress("BG_GetEntityWorldTagPosition", "4c 89 4c 24 ? 44 89 44 24 ? 55 53 56 57 41 54 41 56 41 57 48 8b ec");
+	FindAddress("playerTeleport", "41 0f b6 80 ? ? ? ? 88 42 ? 49 8d 80");
+	FindAddress("subtract", "49 8d 97 ? ? ? ? e8 ? ? ? ? 8b 05 ? ? ? ? 48 8d 4d");
+	FindAddress("team", "3A 88 ? ? ? ? 0F 84 ? ? ? ?");
+	FindAddress("size", "48 69 d3 ? ? ? ? 48 03 96");
+	FindAddress("viewangle", "c4 c1 7a ? ? 84 61 ? 00 c4");
+	FindAddress("aimSpreadScale", "C5 FA 11 97 ? ? ? ? 49 8B D7 48 8B CE E8 ? ? ? ? 41 0F B6 C6 ");
 }
