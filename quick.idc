@@ -43,4 +43,5 @@ static main(void) {
 	FindAddress("ms_cgameStaticsArray", "4c 8d 0d ? ? ? ? 8b d7 4d 8b 0c c9");
 	FindAddress("clStatic", "48 8D 0D ? ? ? ? 48 89 5C 24 ? 48 8B 58 28 E8 ? ? ? ? 3C 01 74 22 48 8B CB E8 ? ? ? ?");
 	FindAddress("commandqueue", "48 03 3D ? ? ? ? 48 8B CF E8 ? ? ? ? 48 8D");
+	FindAddress("commandqueue", "8b c1 48 8d 0d ? ? ? ? 48 6b c0 78 48 03 c1 c3");
 }
